@@ -7,7 +7,8 @@ Docker image for Sprig/Spade development and builds
  - Go to spade repo directory: `cd ~/spade`
  - Run the spade minifier script: `./tools/jsdev.sh` and press Ctrl+C to exit because it doesn't exit by itself when finished
  - Follow the build instructions for your platform of choice on https://github.com/hackclub/spade
-
+ - Get container ID: `docker container ls`
+ - Copy files out of docker image with docker cp: `docker cp <INSERT CONTAINER ID>:/root/spade/rpi_build/src/spade.uf2 ./spade.uf2`
 ## Building
  - Clone this repo:
  - ```
