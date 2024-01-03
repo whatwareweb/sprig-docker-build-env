@@ -15,3 +15,8 @@ Docker image for Sprig/Spade development and builds
    cd sprig-docker-build-env
    ```
  - Build with docker: `docker build .`
+
+
+### Thank Yous
+ - Hack Club Spade for making the thing in the first place https://github.com/hackclub/spade
+ - Random person on Github for explaining the correct packages to install to cross compile for ARM https://github.com/johnwalicki/RaspPi-Pico-Examples-Fedora
